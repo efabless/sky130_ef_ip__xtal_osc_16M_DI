@@ -17,16 +17,16 @@
 
 module sky130_ef_ip__xtal_osc_16M_DI (
 `ifdef USE_POWER_PINS
-    input    vdda1,
-    input    vssa1,
-    input    vccd1,
-    input    vssd1,
+    input   wire    vdda1,
+    input   wire    vssa1,
+    input   wire    vccd1,
+    input   wire    vssd1,
 `endif
-    input    in,
-    input    ena,
-    output   dout,
-    output   out,
-    input    stdby
+    input   wire    in,
+    input   wire    ena,
+    output  wire    dout,
+    output  wire    out,
+    input   wire    stdby
 );
 
 sky130_ef_ip__xtal_osc_16M mprj (
