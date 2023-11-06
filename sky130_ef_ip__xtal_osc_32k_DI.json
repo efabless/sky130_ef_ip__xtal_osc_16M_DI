@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "sky130_ef_ip__xtal_osc_16M_DI",
+        "description": "Digital wrapper for high speed crystal oscillator",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_16M_DI",
+        "owner": "Efabless Corp.",
+        "license": "APACHE 2.0",
+        "author": "Marwan Abbas",
+        "email": "marwan.abbas@efabless.com",
+        "version": "v1.0.0",
+        "date": "1-11-2023",
+        "category": "analog",
+        "tags": [
+            "crystal oscillator",
+            "high speed"
+        ],
+        "bus": [
+            "n/a"
+        ],
+        "type": "hard",
+        "status": "verified",
+        "cell_count": "n/a",
+        "width": "525.3",
+        "height": "211.8",
+        "technology": "sky130",
+        "clock_freq_mhz": "0.032768",
+        "supply_voltage": [
+            "1.8"
+        ]
+    }
+}
